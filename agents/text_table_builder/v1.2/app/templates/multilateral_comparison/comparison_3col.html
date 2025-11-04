@@ -1,0 +1,41 @@
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; padding: 40px; height: 100%; background: white; align-items: start;">
+
+  <!-- Column 1: Blue bullets -->
+  <div class="col-blue">
+    <h3 style="color: #1a73e8; font-size: 32px; margin: 0 0 24px 0; font-weight: 700; border-bottom: 4px solid #1a73e8; padding-bottom: 14px;">{column_1_heading}</h3>
+    <ul>
+      {column_1_items}
+    </ul>
+  </div>
+
+  <!-- Column 2: Red bullets -->
+  <div class="col-red">
+    <h3 style="color: #ea4335; font-size: 32px; margin: 0 0 24px 0; font-weight: 700; border-bottom: 4px solid #ea4335; padding-bottom: 14px;">{column_2_heading}</h3>
+    <ul>
+      {column_2_items}
+    </ul>
+  </div>
+
+  <!-- Column 3: Green bullets -->
+  <div class="col-green">
+    <h3 style="color: #10b981; font-size: 32px; margin: 0 0 24px 0; font-weight: 700; border-bottom: 4px solid #10b981; padding-bottom: 14px;">{column_3_heading}</h3>
+    <ul>
+      {column_3_items}
+    </ul>
+  </div>
+
+</div>
+
+<style type="text/css">
+.col-blue ul { list-style: none; padding: 0; margin: 0; font-size: 23px; line-height: 1.8; color: #1f2937; }
+.col-blue ul li { padding-left: 20px; position: relative; }
+.col-blue ul li::before { content: "●"; color: #1a73e8; position: absolute; left: 0; }
+
+.col-red ul { list-style: none; padding: 0; margin: 0; font-size: 23px; line-height: 1.8; color: #1f2937; }
+.col-red ul li { padding-left: 20px; position: relative; }
+.col-red ul li::before { content: "●"; color: #ea4335; position: absolute; left: 0; }
+
+.col-green ul { list-style: none; padding: 0; margin: 0; font-size: 23px; line-height: 1.8; color: #1f2937; }
+.col-green ul li { padding-left: 20px; position: relative; }
+.col-green ul li::before { content: "●"; color: #10b981; position: absolute; left: 0; }
+</style>

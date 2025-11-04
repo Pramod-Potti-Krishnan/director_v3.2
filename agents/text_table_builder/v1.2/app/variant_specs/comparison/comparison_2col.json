@@ -1,0 +1,62 @@
+{
+  "variant_id": "comparison_2col",
+  "slide_type": "comparison",
+  "template_path": "app/templates/multilateral_comparison/comparison_2col.html",
+  "description": "2-column comparison layout with headers and item lists",
+  "elements": [
+    {
+      "element_id": "column_1",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_1_heading",
+        "items": "column_1_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 30,
+          "min": 29,
+          "max": 32
+        },
+        "items": {
+          "baseline": 450,
+          "min": 428,
+          "max": 473,
+          "format": "html_list"
+        }
+      }
+    },
+    {
+      "element_id": "column_2",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_2_heading",
+        "items": "column_2_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 30,
+          "min": 29,
+          "max": 32
+        },
+        "items": {
+          "baseline": 450,
+          "min": 428,
+          "max": 473,
+          "format": "html_list"
+        }
+      }
+    }
+  ],
+  "layout": {
+    "columns": 2,
+    "layout_type": "vertical_columns"
+  }
+}

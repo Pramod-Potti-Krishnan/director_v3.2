@@ -1,0 +1,112 @@
+{
+  "variant_id": "comparison_4col",
+  "slide_type": "comparison",
+  "template_path": "app/templates/multilateral_comparison/comparison_4col.html",
+  "description": "4-column comparison layout with headers and item lists",
+  "elements": [
+    {
+      "element_id": "column_1",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_1_heading",
+        "items": "column_1_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 20,
+          "min": 19,
+          "max": 21
+        },
+        "items": {
+          "baseline": 200,
+          "min": 190,
+          "max": 210,
+          "format": "html_list"
+        }
+      }
+    },
+    {
+      "element_id": "column_2",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_2_heading",
+        "items": "column_2_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 20,
+          "min": 19,
+          "max": 21
+        },
+        "items": {
+          "baseline": 200,
+          "min": 190,
+          "max": 210,
+          "format": "html_list"
+        }
+      }
+    },
+    {
+      "element_id": "column_3",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_3_heading",
+        "items": "column_3_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 20,
+          "min": 19,
+          "max": 21
+        },
+        "items": {
+          "baseline": 200,
+          "min": 190,
+          "max": 210,
+          "format": "html_list"
+        }
+      }
+    },
+    {
+      "element_id": "column_4",
+      "element_type": "comparison_column",
+      "required_fields": [
+        "heading",
+        "items"
+      ],
+      "placeholders": {
+        "heading": "column_4_heading",
+        "items": "column_4_items"
+      },
+      "character_requirements": {
+        "heading": {
+          "baseline": 20,
+          "min": 19,
+          "max": 21
+        },
+        "items": {
+          "baseline": 200,
+          "min": 190,
+          "max": 210,
+          "format": "html_list"
+        }
+      }
+    }
+  ],
+  "layout": {
+    "columns": 4,
+    "layout_type": "vertical_columns"
+  }
+}
